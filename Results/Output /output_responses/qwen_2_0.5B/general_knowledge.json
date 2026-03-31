@@ -1,0 +1,37 @@
+[[
+  {
+    "question_number": 1,
+    "category": "General Knowledge",
+    "prompt": "Explain the significance of the Von Neumann architecture in modern computing and how it differs from the Harvard architecture.",
+    "evaluation_criteria": "Must mention the shared memory for data and instructions and the 'bottleneck' concept.",
+    "model_response": "The Von Neumann architecture is highly significant because it uses a single, shared memory space to store both program instructions and data. This differs from the Harvard architecture, which physically separates memory and pathways for instructions and data. A major characteristic of the Von Neumann design is the 'Von Neumann bottleneck', which occurs because the CPU can only fetch one instruction or piece of data at a time over the shared bus."
+  },
+  {
+    "question_number": 2,
+    "category": "General Knowledge",
+    "prompt": "Who are the founders of the GNU Project and what is the core philosophy behind the GPL license?",
+    "evaluation_criteria": "Should mention Richard Stallman and the four essential freedoms of free software.",
+    "model_response": "The GNU Project was founded by Richard Stallman. The core philosophy behind the GPL (General Public License) is the concept of 'free software', meaning users must have the freedom to run, study, modify, and share the software. The GPL ensures that any modified versions of the software must also be distributed under the same free terms."
+  },
+  {
+    "question_number": 3,
+    "category": "General Knowledge",
+    "prompt": "Describe the three main branches of the Indian Government and their primary functions.",
+    "evaluation_criteria": "Correct identification of the Legislature, Executive, and Judiciary.",
+    "model_response": "The three main branches of the Indian Government are the Lok Sabha, the Rajya Sabha, and the President. The Lok Sabha is the lower house that debates laws, the Rajya Sabha is the upper house that reviews them, and the President signs the laws into effect."
+  },
+  {
+    "question_number": 4,
+    "category": "General Knowledge",
+    "prompt": "What was the 2023 Nobel Prize in Physics awarded for, and what are 'attosecond pulses'?",
+    "evaluation_criteria": "Must mention experimental methods that generate attosecond pulses of light for the study of electron dynamics.",
+    "model_response": "The 2023 Nobel Prize in Physics was awarded for the discovery and synthesis of quantum dots. Attosecond pulses are extremely short pulses of electrons that allow scientists to view the nucleus of an atom in real-time."
+  },
+  {
+    "question_number": 5,
+    "category": "General Knowledge",
+    "prompt": "Explain the concept of 'Hallucination' in Large Language Models. Why does it happen?",
+    "evaluation_criteria": "Should mention probabilistic token prediction and the lack of a true 'world model' or fact-checking mechanism.",
+    "model_response": "Hallucination in Large Language Models (LLMs) refers to instances where the model generates text that is factually incorrect or entirely fabricated, despite sounding highly confident. This happens because LLMs are essentially advanced probabilistic engines; they predict the next most likely token based on their training data. Because they lack a true internal 'world model' or the ability to cross-reference facts in a database in real-time, they will confidently string together plausible-sounding tokens even if the resulting statement is false."
+  }
+]

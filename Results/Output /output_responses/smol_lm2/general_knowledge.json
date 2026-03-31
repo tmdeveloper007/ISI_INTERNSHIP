@@ -1,0 +1,37 @@
+[
+  {
+    "question_number": 1,
+    "category": "General Knowledge",
+    "prompt": "Explain the significance of the Von Neumann architecture in modern computing and how it differs from the Harvard architecture.",
+    "evaluation_criteria": "Must mention the shared memory for data and instructions and the 'bottleneck' concept.",
+    "model_response": "The Von Neumann architecture, named after John von Neumann, is a widely used computer architecture that consists of a central processing unit (CPU), memory, and input/output (I/O) devices. It shares memory for both data and instructions, forming a single, unified memory space. This architecture is called 'shared memory' architecture.\n\nThe core philosophy behind the Von Neumann architecture is that it enables efficient data sharing between the CPU and memory, thus allowing for faster computation. This is achieved by providing a shared memory space, which is common to both the CPU and memory.\n\nIn contrast, the Harvard architecture, also known as the split-memory architecture, consists of separate memory spaces for instructions and data. This architecture is also known as 'split memory' architecture.\n\nThe key differences between the Von Neumann and Harvard architectures are:\n\n1. Shared memory: In the Von Neumann architecture, data and instructions are shared within the same memory space. In the Harvard architecture, data and instructions are stored in separate memory spaces.\n2. Performance: The shared memory architecture of the Von Neumann architecture offers faster computation because data can be accessed directly from the memory. In contrast, the Harvard architecture has a 'bottleneck' due to the need to access instructions and data from different memory spaces, which can reduce performance."
+  },
+  {
+    "question_number": 2,
+    "category": "General Knowledge",
+    "prompt": "Who are the founders of the GNU Project and what is the core philosophy behind the GPL license?",
+    "evaluation_criteria": "Should mention Richard Stallman and the four essential freedoms of free software.",
+    "model_response": "The GNU Project was founded by Richard Stallman in 1984. The core philosophy behind the GPL license is to provide freedom to users of software, ensuring that they have the ability to modify, study, and distribute the software as they see fit.\n\nThe GPL license is designed to protect the users' freedom, not to restrict their freedom. It aims to ensure that the source code of the software is available, which allows users to modify and distribute the software. The license also prohibits the distribution of software that is not free, thereby ensuring that users have access to the freedom to modify and distribute the software."
+  },
+  {
+    "question_number": 3,
+    "category": "General Knowledge",
+    "prompt": "Describe the three main branches of the Indian Government and their primary functions.",
+    "evaluation_criteria": "Correct identification of the Legislature, Executive, and Judiciary.",
+    "model_response": "The three main branches of the Indian Government are the Legislature, Executive, and Judiciary.\n\nThe Legislative branch consists of two parts: the Rajya Sabha (Council of States) and the Lok Sabha (House of the People). The primary functions of the Legislative branch are:\n1. Making and amending laws: The legislative branch is responsible for creating and changing laws that govern the country.\n2. Representation: The legislative branch represents the people of India and ensures that their voices are heard.\n\nThe Executive branch is headed by the President of India. The primary functions of the Executive branch are:\n1. Execution of laws: The Executive branch is responsible for executing the laws passed by the Legislative branch.\n2. Overseeing the functions of other branches: The Executive branch ensures that the other branches of government are functioning properly and making decisions that are in the best interests of the people.\n\nThe Judiciary branch consists of the Supreme Court and the High Courts. The primary functions of the Judiciary branch are:\n1. Interpretation of laws: The Judiciary branch interprets the laws of India and ensures that they are applied fairly and in accordance with the Constitution.\n2. Protection of rights: The Judiciary branch protects the rights of the people of India and ensures that they are not unfairly treated."
+  },
+  {
+    "question_number": 4,
+    "category": "General Knowledge",
+    "prompt": "What was the 2023 Nobel Prize in Physics awarded for, and what are 'attosecond pulses'?",
+    "evaluation_criteria": "Must mention experimental methods that generate attosecond pulses of light for the study of electron dynamics.",
+    "model_response": "Attosecond pulses refer to extremely short bursts of light, which are measured in billionths of a billionth of a second. They are created using advanced laser technology, which can generate light pulses of varying lengths. These pulses are used to study the behavior of electrons in atoms and molecules, particularly in the context of chemical reactions and the dynamics of atoms. By analyzing the interactions between electrons and atoms, researchers can gain insights into the fundamental principles of quantum mechanics and the behavior of matter at the atomic and subatomic level."
+  },
+  {
+    "question_number": 5,
+    "category": "General Knowledge",
+    "prompt": "Explain the concept of 'Hallucination' in Large Language Models. Why does it happen?",
+    "evaluation_criteria": "Should mention probabilistic token prediction and the lack of a true 'world model' or fact-checking mechanism.",
+    "model_response": "In the context of Large Language Models (LLMs), a hallucination occurs when the model produces output that is indistinguishable from real data, but is not actually present in the training data. This can happen due to several reasons. One common cause is the lack of a true 'world model' or fact-checking mechanism in LLMs. Unlike traditional language models that use a database of facts to generate output, LLMs rely on probabilistic token prediction to produce text. This means that they generate text based on the likelihood of a word or phrase appearing in a given context, rather than being based on factual information. When this probabilistic model is not grounded in reality, it can produce output that is highly accurate but also entirely fabricated. Additionally, the lack of a true 'world model' in LLMs means that they are not equipped to distinguish between real and imagined concepts, leading to hallucinations. This highlights the importance of designing LLMs that have a clear understanding of the world and are able to distinguish between fact and fiction."
+  }
+]

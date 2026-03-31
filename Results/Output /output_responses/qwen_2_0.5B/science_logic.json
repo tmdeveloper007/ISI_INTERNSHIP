@@ -1,0 +1,37 @@
+[[[
+  {
+    "question_number": 1,
+    "category": "Science Logic",
+    "prompt": "Explain the Second Law of Thermodynamics in terms of entropy. Can entropy ever decrease in a local system?",
+    "evaluation_criteria": "Must state that total entropy of an isolated system never decreases; local decreases require external work.",
+    "model_response": "The Second Law of Thermodynamics states that the total entropy (or disorder) of an isolated system will always increase or remain constant. Entropy can decrease in a local, non-isolated system, but this requires an input of external energy or work, which in turn increases the entropy of the surrounding environment."
+  },
+  {
+    "question_number": 2,
+    "category": "Science Logic",
+    "prompt": "In compiler design, what is the difference between an Abstract Syntax Tree (AST) and a Control Flow Graph (CFG)?",
+    "evaluation_criteria": "AST represents hierarchical structure; CFG represents execution paths/logic flow.",
+    "model_response": "An Abstract Syntax Tree (AST) is a data structure used by the compiler to map out the control flow and execution paths of a program. A Control Flow Graph (CFG), on the other hand, is a tree representation of the abstract syntactic structure of the source code."
+  },
+  {
+    "question_number": 3,
+    "category": "Science Logic",
+    "prompt": "Explain the concept of 'Wave-Particle Duality' using the Double Slit Experiment as an example.",
+    "evaluation_criteria": "Mention interference patterns produced by particles when not observed.",
+    "model_response": "Wave-Particle Duality is the principle that light is made of particles called photons. In the Double Slit Experiment, when photons are fired at a screen with two slits, they pass through the slits and hit the detector behind it, proving that light travels in straight lines as solid particles."
+  },
+  {
+    "question_number": 4,
+    "category": "Science Logic",
+    "prompt": "Convert the high-level operation 'y = mx + c' into Three-Address Code (TAC).",
+    "evaluation_criteria": "Correct breakdown into: t1 = m * x; y = t1 + c.",
+    "model_response": "The Three-Address Code for the expression 'y = mx + c' can be written as:\n1. LOAD m, R1\n2. LOAD x, R2\n3. MUL R1, R2, R3\n4. ADD R3, c, y\nThis uses three registers to calculate the final output."
+  },
+  {
+    "question_number": 5,
+    "category": "Science Logic",
+    "prompt": "If a light source is moving away from an observer at high speed, what happens to the observed frequency and wavelength? Name the effect.",
+    "evaluation_criteria": "Identify 'Redshift'. Frequency decreases, wavelength increases.",
+    "model_response": "If a light source is moving away from an observer, the observed wavelength becomes longer and the frequency becomes lower. This phenomenon is known as the Doppler Effect."
+  }
+]

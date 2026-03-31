@@ -1,0 +1,37 @@
+[
+  {
+    "question_number": 1,
+    "category": "Math Reasoning",
+    "prompt": "Evaluate the integral of (x * exp(x)) dx from 0 to 1 using integration by parts.",
+    "evaluation_criteria": "Correct application of the formula ∫udv = uv - ∫vdu. Result should be 1.",
+    "model_response": "We use integration by parts: ∫ u dv = uv - ∫ v du. Let u = x, so du = dx. Let dv = exp(x) dx, so v = exp(x).\nThe integral becomes: x * exp(x) - ∫ exp(x) dx = x * exp(x) - exp(x).\nNow, we evaluate this from 0 to 1:\nAt x = 1: 1 * exp(1) - exp(1) = e - e = 0.\nAt x = 0: 0 * exp(0) - exp(0) = 0 - 1 = -1.\nSubtracting the lower bound from the upper bound: 0 - (-1) = 1. The result is 1."
+  },
+  {
+    "question_number": 2,
+    "category": "Math Reasoning",
+    "prompt": "Find the eigenvalues of the 2x2 matrix: [[2, 1], [1, 2]].",
+    "evaluation_criteria": "Correct setup of the characteristic equation det(A - λI) = 0. Results: λ = 1 and λ = 3.",
+    "model_response": "To find the eigenvalues, we solve the characteristic equation det(A - λI) = 0.\nThe matrix A - λI is [[2-λ, 1], [1, 2-λ]].\nThe determinant is (2-λ)(2-λ) - (1)(1) = 4 - 4λ + λ^2 - 1 = λ^2 - 4λ + 3.\nSetting this to 0: λ^2 - 4λ + 3 = 0.\nFactoring the polynomial yields (λ - 1)(λ - 3) = 0.\nThus, the eigenvalues are λ = 1 and λ = 3."
+  },
+  {
+    "question_number": 3,
+    "category": "Math Reasoning",
+    "prompt": "A train travels 60 km at 30 km/h and then another 60 km at 60 km/h. What is the average speed for the entire 120 km journey?",
+    "evaluation_criteria": "Must use total distance / total time. The answer is 40 km/h.",
+    "model_response": "To find the average speed of the train, we can take the arithmetic mean of the two speeds since the distances for both legs of the journey are equal (60 km each). The average speed is (30 km/h + 60 km/h) / 2 = 90 / 2 = 45 km/h."
+  },
+  {
+    "question_number": 4,
+    "category": "Math Reasoning",
+    "prompt": "If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "evaluation_criteria": "Logical deduction that one machine takes 5 minutes per widget. Answer is 5 minutes.",
+    "model_response": "If 5 machines make 5 widgets in 5 minutes, this means that the rate of production is 1 widget per machine per 5 minutes. Therefore, each individual machine takes exactly 5 minutes to produce one widget. If you have 100 machines working in parallel, they will produce 100 widgets in the same amount of time: 5 minutes."
+  },
+  {
+    "question_number": 5,
+    "category": "Math Reasoning",
+    "prompt": "Using the Taylor series expansion, find the first three non-zero terms of sin(x) centered at x = 0.",
+    "evaluation_criteria": "Correct terms: x, -x^3/3!, and x^5/5!.",
+    "model_response": "The Taylor series expansion (Maclaurin series) for sin(x) centered at x = 0 is defined as the sum of ((-1)^n / (2n+1)!) * x^(2n+1) for n=0, 1, 2...\nThe first three non-zero terms are:\nn=0: x\nn=1: -x^3 / 3! = -x^3 / 6\nn=2: x^5 / 5! = x^5 / 120\nSo the first three non-zero terms are x, -x^3/6, and x^5/120."
+  }
+]

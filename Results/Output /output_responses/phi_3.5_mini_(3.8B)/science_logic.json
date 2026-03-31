@@ -1,0 +1,37 @@
+[[
+  {
+    "question_number": 1,
+    "category": "Science Logic",
+    "prompt": "Explain the Second Law of Thermodynamics in terms of entropy. Can entropy ever decrease in a local system?",
+    "evaluation_criteria": "Must state that total entropy of an isolated system never decreases; local decreases require external work.",
+    "model_response": "The Second Law of Thermodynamics states that the total entropy of an isolated system can never decrease over time; it can only remain constant or increase. Entropy is a measure of disorder. While the total entropy of the universe must increase, entropy can decrease in a local, non-isolated system, provided that external work is done on the system. This external work will invariably cause a greater increase in entropy in the system's surroundings."
+  },
+  {
+    "question_number": 2,
+    "category": "Science Logic",
+    "prompt": "In compiler design, what is the difference between an Abstract Syntax Tree (AST) and a Control Flow Graph (CFG)?",
+    "evaluation_criteria": "AST represents hierarchical structure; CFG represents execution paths/logic flow.",
+    "model_response": "An Abstract Syntax Tree (AST) is a hierarchical tree representation of the syntactic structure of source code, showing how expressions and statements are nested without detailing every punctuation mark. A Control Flow Graph (CFG), on the other hand, is a directed graph that represents all the possible execution paths (logic flow) that a program might take during execution, typically using basic blocks as nodes."
+  },
+  {
+    "question_number": 3,
+    "category": "Science Logic",
+    "prompt": "Explain the concept of 'Wave-Particle Duality' using the Double Slit Experiment as an example.",
+    "evaluation_criteria": "Mention interference patterns produced by particles when not observed.",
+    "model_response": "Wave-particle duality posits that all matter exhibits both wave-like and particle-like properties. In the double slit experiment, when single electrons (particles) are fired through two parallel slits at a screen, they build up an interference pattern over time, which is characteristic of waves. However, if detectors are placed at the slits to observe which slit the electron passes through, the wave function collapses, and they act purely as particles, creating two distinct bands instead of an interference pattern."
+  },
+  {
+    "question_number": 4,
+    "category": "Science Logic",
+    "prompt": "Convert the high-level operation 'y = mx + c' into Three-Address Code (TAC).",
+    "evaluation_criteria": "Correct breakdown into: t1 = m * x; y = t1 + c.",
+    "model_response": "To convert the operation 'y = mx + c' into Three-Address Code (TAC), we break it down into sequential operations with a maximum of three operands per line:\nt1 = m * x\ny = t1 + c"
+  },
+  {
+    "question_number": 5,
+    "category": "Science Logic",
+    "prompt": "If a light source is moving away from an observer at high speed, what happens to the observed frequency and wavelength? Name the effect.",
+    "evaluation_criteria": "Identify 'Redshift'. Frequency decreases, wavelength increases.",
+    "model_response": "If a light source is moving away from an observer at high speeds, the observed frequency will increase and the wavelength will decrease. This phenomenon shifts the light towards the blue end of the spectrum and is called Blueshift."
+  }
+]

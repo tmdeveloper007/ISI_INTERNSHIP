@@ -1,0 +1,33 @@
+[
+  {
+    "question_number": 1,
+    "category": "General Knowledge",
+    "prompt": "Explain the significance of the Von Neumann architecture in modern computing and how it differs from the Harvard architecture.",
+    "evaluation_criteria": "Must mention the shared memory for data and instructions and the 'bottleneck' concept."
+  },
+  {
+    "question_number": 2,
+    "category": "General Knowledge",
+    "prompt": "Who are the founders of the GNU Project and what is the core philosophy behind the GPL license?",
+    "evaluation_criteria": "Should mention Richard Stallman and the four essential freedoms of free software."
+  },
+  {
+    "question_number": 3,
+    "category": "General Knowledge",
+    "prompt": "Describe the three main branches of the Indian Government and their primary functions.",
+    "evaluation_criteria": "Correct identification of the Legislature, Executive, and Judiciary."
+  },
+  {
+    "question_number": 4,
+    "category": "General Knowledge",
+    "prompt": "What was the 2023 Nobel Prize in Physics awarded for, and what are 'attosecond pulses'?",
+    "evaluation_criteria": "Must mention experimental methods that generate attosecond pulses of light for the study of electron dynamics."
+  },
+  {
+    "question_number": 5,
+    "category": "General Knowledge",
+    "prompt": "Explain the concept of 'Hallucination' in Large Language Models. Why does it happen?",
+    "evaluation_criteria": "Should mention probabilistic token prediction and the lack of a true 'world model' or fact-checking mechanism."
+  }
+][
+  {

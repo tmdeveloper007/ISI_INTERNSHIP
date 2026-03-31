@@ -1,0 +1,32 @@
+[
+  {
+    "question_number": 1,
+    "category": "Science Logic",
+    "prompt": "Explain the Second Law of Thermodynamics in terms of entropy. Can entropy ever decrease in a local system?",
+    "evaluation_criteria": "Must state that total entropy of an isolated system never decreases; local decreases require external work."
+  },
+  {
+    "question_number": 2,
+    "category": "Science Logic",
+    "prompt": "In compiler design, what is the difference between an Abstract Syntax Tree (AST) and a Control Flow Graph (CFG)?",
+    "evaluation_criteria": "AST represents hierarchical structure; CFG represents execution paths/logic flow."
+  },
+  {
+    "question_number": 3,
+    "category": "Science Logic",
+    "prompt": "Explain the concept of 'Wave-Particle Duality' using the Double Slit Experiment as an example.",
+    "evaluation_criteria": "Mention interference patterns produced by particles when not observed."
+  },
+  {
+    "question_number": 4,
+    "category": "Science Logic",
+    "prompt": "Convert the high-level operation 'y = mx + c' into Three-Address Code (TAC).",
+    "evaluation_criteria": "Correct breakdown into: t1 = m * x; y = t1 + c."
+  },
+  {
+    "question_number": 5,
+    "category": "Science Logic",
+    "prompt": "If a light source is moving away from an observer at high speed, what happens to the observed frequency and wavelength? Name the effect.",
+    "evaluation_criteria": "Identify 'Redshift'. Frequency decreases, wavelength increases."
+  }
+]

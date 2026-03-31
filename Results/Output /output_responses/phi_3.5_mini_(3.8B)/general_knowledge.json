@@ -1,0 +1,37 @@
+[
+  {
+    "question_number": 1,
+    "category": "General Knowledge",
+    "prompt": "Explain the significance of the Von Neumann architecture in modern computing and how it differs from the Harvard architecture.",
+    "evaluation_criteria": "Must mention the shared memory for data and instructions and the 'bottleneck' concept.",
+    "model_response": "The Von Neumann architecture is the foundational model for almost all modern computers. Its primary significance lies in the stored-program concept, where both instructions and data are stored in a single, shared memory space. This differs from the Harvard architecture, which utilizes physically separate memory units and buses for instructions and data. Because Von Neumann shares a single bus, it introduces the 'Von Neumann bottleneck,' as the CPU cannot read an instruction and read/write data simultaneously."
+  },
+  {
+    "question_number": 2,
+    "category": "General Knowledge",
+    "prompt": "Who are the founders of the GNU Project and what is the core philosophy behind the GPL license?",
+    "evaluation_criteria": "Should mention Richard Stallman and the four essential freedoms of free software.",
+    "model_response": "The GNU Project was founded by Richard Stallman in 1983. The core philosophy behind the GNU General Public License (GPL) is the protection of software freedom. It is based on four essential freedoms: the freedom to run the program as you wish, the freedom to study and modify the source code, the freedom to redistribute copies, and the freedom to distribute your modified versions. It enforces 'copyleft', meaning derived works must also be open and free."
+  },
+  {
+    "question_number": 3,
+    "category": "General Knowledge",
+    "prompt": "Describe the three main branches of the Indian Government and their primary functions.",
+    "evaluation_criteria": "Correct identification of the Legislature, Executive, and Judiciary.",
+    "model_response": "The Indian Government is divided into three main branches: \n1. The Legislature (Parliament): Composed of the Lok Sabha and Rajya Sabha, its primary function is to draft, debate, and pass laws.\n2. The Executive: Led by the President and the Prime Minister along with the Council of Ministers, its function is to implement and enforce the laws passed by the Legislature.\n3. The Judiciary: Comprising the Supreme Court, High Courts, and lower courts, its role is to interpret laws, protect fundamental rights, and ensure laws comply with the Constitution."
+  },
+  {
+    "question_number": 4,
+    "category": "General Knowledge",
+    "prompt": "What was the 2023 Nobel Prize in Physics awarded for, and what are 'attosecond pulses'?",
+    "evaluation_criteria": "Must mention experimental methods that generate attosecond pulses of light for the study of electron dynamics.",
+    "model_response": "The 2023 Nobel Prize in Physics was awarded to Alain Aspect, John F. Clauser, and Anton Zeilinger for their groundbreaking experiments with entangled photons, establishing the violation of Bell inequalities. Attosecond pulses are incredibly brief flashes of light, lasting one quintillionth of a second (10^-18 seconds). These ultrafast pulses act like a high-speed strobe light, allowing physicists to observe and study the extremely rapid movements and dynamics of electrons within atoms and molecules."
+  },
+  {
+    "question_number": 5,
+    "category": "General Knowledge",
+    "prompt": "Explain the concept of 'Hallucination' in Large Language Models. Why does it happen?",
+    "evaluation_criteria": "Should mention probabilistic token prediction and the lack of a true 'world model' or fact-checking mechanism.",
+    "model_response": "Hallucination in Large Language Models (LLMs) occurs when the model confidently generates information that is factually incorrect, nonsensical, or ungrounded in reality. This happens primarily because LLMs are sophisticated next-token prediction engines; they generate text based on statistical probabilities learned from vast amounts of training data, rather than retrieving facts from a structured database. They lack a true 'world model' and have no inherent mechanism to fact-check or verify the truthfulness of the statistically probable sequences they produce."
+  }
+]

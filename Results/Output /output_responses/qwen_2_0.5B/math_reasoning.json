@@ -1,0 +1,37 @@
+[[[
+  {
+    "question_number": 1,
+    "category": "Math Reasoning",
+    "prompt": "Evaluate the integral of (x * exp(x)) dx from 0 to 1 using integration by parts.",
+    "evaluation_criteria": "Correct application of the formula ∫udv = uv - ∫vdu. Result should be 1.",
+    "model_response": "Using integration by parts, let u = x and dv = exp(x)dx. Then du = dx and v = exp(x). The formula is uv - ∫vdu. \nThis gives x*exp(x) - ∫exp(x)dx = x*exp(x) - exp(x).\nEvaluating from 0 to 1:\nAt x = 1: 1*exp(1) - exp(1) = e - e = 0.\nAt x = 0: 0*exp(0) - exp(0) = 0 - 1 = -1.\nResult = 0 - (-1) = e."
+  },
+  {
+    "question_number": 2,
+    "category": "Math Reasoning",
+    "prompt": "Find the eigenvalues of the 2x2 matrix: [[2, 1], [1, 2]].",
+    "evaluation_criteria": "Correct setup of the characteristic equation det(A - λI) = 0. Results: λ = 1 and λ = 3.",
+    "model_response": "To find the eigenvalues, we solve the characteristic equation det(A - λI) = 0.\n|2-λ  1  |\n|1  2-λ  | = 0\n(2-λ)(2-λ) - (1)(1) = 0\n4 - 4λ + λ^2 - 1 = 0\nλ^2 - 4λ + 3 = 0\nFactoring the quadratic equation gives (λ - 1)(λ - 3) = 0.\nThe eigenvalues are λ = 1 and λ = 3."
+  },
+  {
+    "question_number": 3,
+    "category": "Math Reasoning",
+    "prompt": "A train travels 60 km at 30 km/h and then another 60 km at 60 km/h. What is the average speed for the entire 120 km journey?",
+    "evaluation_criteria": "Must use total distance / total time. The answer is 40 km/h.",
+    "model_response": "The train travels at 30 km/h for the first half and 60 km/h for the second half. To find the average speed, we take the arithmetic mean of the two speeds: (30 + 60) / 2 = 90 / 2 = 45 km/h. The average speed is 45 km/h."
+  },
+  {
+    "question_number": 4,
+    "category": "Math Reasoning",
+    "prompt": "If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "evaluation_criteria": "Logical deduction that one machine takes 5 minutes per widget. Answer is 5 minutes.",
+    "model_response": "It takes 5 machines 5 minutes to make 5 widgets, which means 1 machine takes 5 minutes to make 1 widget. Therefore, if you have 100 machines working simultaneously, it will still take them 5 minutes to make 100 widgets."
+  },
+  {
+    "question_number": 5,
+    "category": "Math Reasoning",
+    "prompt": "Using the Taylor series expansion, find the first three non-zero terms of sin(x) centered at x = 0.",
+    "evaluation_criteria": "Correct terms: x, -x^3/3!, and x^5/5!.",
+    "model_response": "The Taylor series expansion for sin(x) centered at x = 0 is a standard Maclaurin series. The first three non-zero terms are:\nsin(x) ≈ x + x^2/2! + x^3/3!"
+  }
+]

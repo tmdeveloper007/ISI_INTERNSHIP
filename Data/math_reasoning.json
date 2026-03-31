@@ -1,0 +1,32 @@
+[
+  {
+    "question_number": 1,
+    "category": "Math Reasoning",
+    "prompt": "Evaluate the integral of (x * exp(x)) dx from 0 to 1 using integration by parts.",
+    "evaluation_criteria": "Correct application of the formula ∫udv = uv - ∫vdu. Result should be 1."
+  },
+  {
+    "question_number": 2,
+    "category": "Math Reasoning",
+    "prompt": "Find the eigenvalues of the 2x2 matrix: [[2, 1], [1, 2]].",
+    "evaluation_criteria": "Correct setup of the characteristic equation det(A - λI) = 0. Results: λ = 1 and λ = 3."
+  },
+  {
+    "question_number": 3,
+    "category": "Math Reasoning",
+    "prompt": "A train travels 60 km at 30 km/h and then another 60 km at 60 km/h. What is the average speed for the entire 120 km journey?",
+    "evaluation_criteria": "Must use total distance / total time. The answer is 40 km/h."
+  },
+  {
+    "question_number": 4,
+    "category": "Math Reasoning",
+    "prompt": "If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "evaluation_criteria": "Logical deduction that one machine takes 5 minutes per widget. Answer is 5 minutes."
+  },
+  {
+    "question_number": 5,
+    "category": "Math Reasoning",
+    "prompt": "Using the Taylor series expansion, find the first three non-zero terms of sin(x) centered at x = 0.",
+    "evaluation_criteria": "Correct terms: x, -x^3/3!, and x^5/5!."
+  }
+]

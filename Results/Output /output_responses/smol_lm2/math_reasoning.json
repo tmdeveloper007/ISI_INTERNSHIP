@@ -1,0 +1,37 @@
+[[
+  {
+    "question_number": 1,
+    "category": "Math Reasoning",
+    "prompt": "Evaluate the integral of (x * exp(x)) dx from 0 to 1 using integration by parts.",
+    "evaluation_criteria": "Correct application of the formula ∫udv = uv - ∫vdu. Result should be 1.",
+    "model_response": "Using integration by parts, let u = x and dv = exp(x)dx. Then du = dx and v = exp(x). The formula is uv - ∫vdu. This gives x*exp(x) - exp(x). Evaluating from 0 to 1: (1*e^1 - e^1) - (0 - 1) = 0 - (-1) = 0. The result is 0."
+  },
+  {
+    "question_number": 2,
+    "category": "Math Reasoning",
+    "prompt": "Find the eigenvalues of the 2x2 matrix: [[2, 1], [1, 2]].",
+    "evaluation_criteria": "Correct setup of the characteristic equation det(A - λI) = 0. Results: λ = 1 and λ = 3.",
+    "model_response": "We solve the characteristic equation det(A - λI) = 0. \n(2-λ)(2-λ) - (1)(1) = 0\n4 - 4λ + λ^2 - 1 = 0\nλ^2 - 4λ + 3 = 0. \nFactoring this gives (λ - 2)(λ - 2) = 0. The eigenvalues are 2 and 2."
+  },
+  {
+    "question_number": 3,
+    "category": "Math Reasoning",
+    "prompt": "A train travels 60 km at 30 km/h and then another 60 km at 60 km/h. What is the average speed for the entire 120 km journey?",
+    "evaluation_criteria": "Must use total distance / total time. The answer is 40 km/h.",
+    "model_response": "The time for the first leg is 60/30 = 2 hours. The time for the second leg is 60/60 = 1 hour. The total distance is 120 km and total time is 3 hours. The average speed is 120 / 3 = 45 km/h."
+  },
+  {
+    "question_number": 4,
+    "category": "Math Reasoning",
+    "prompt": "If 5 machines take 5 minutes to make 5 widgets, how long would it take 100 machines to make 100 widgets?",
+    "evaluation_criteria": "Logical deduction that one machine takes 5 minutes per widget. Answer is 5 minutes.",
+    "model_response": "Since 5 machines take 5 minutes to make 5 widgets, the rate is 1 widget per minute. Therefore, 100 machines working at the same rate will take 100 minutes to make 100 widgets."
+  },
+  {
+    "question_number": 5,
+    "category": "Math Reasoning",
+    "prompt": "Using the Taylor series expansion, find the first three non-zero terms of sin(x) centered at x = 0.",
+    "evaluation_criteria": "Correct terms: x, -x^3/3!, and x^5/5!.",
+    "model_response": "The Taylor series expansion for sin(x) centered at x = 0 gives the first three non-zero terms as: 1 - x^2/2! + x^4/4!"
+  }
+]

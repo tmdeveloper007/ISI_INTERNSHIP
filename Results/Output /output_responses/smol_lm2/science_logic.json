@@ -1,0 +1,37 @@
+[[
+  {
+    "question_number": 1,
+    "category": "Science Logic",
+    "prompt": "Explain the Second Law of Thermodynamics in terms of entropy. Can entropy ever decrease in a local system?",
+    "evaluation_criteria": "Must state that total entropy of an isolated system never decreases; local decreases require external work.",
+    "model_response": "The Second Law of Thermodynamics states that the total entropy of an isolated system will never decrease over time. Entropy can decrease in a local system, but only if external work is done on that system, which increases the entropy of the surroundings."
+  },
+  {
+    "question_number": 2,
+    "category": "Science Logic",
+    "prompt": "In compiler design, what is the difference between an Abstract Syntax Tree (AST) and a Control Flow Graph (CFG)?",
+    "evaluation_criteria": "AST represents hierarchical structure; CFG represents execution paths/logic flow.",
+    "model_response": "An Abstract Syntax Tree (AST) represents the variables and data types in a program, while a Control Flow Graph (CFG) maps out the memory allocation and garbage collection paths."
+  },
+  {
+    "question_number": 3,
+    "category": "Science Logic",
+    "prompt": "Explain the concept of 'Wave-Particle Duality' using the Double Slit Experiment as an example.",
+    "evaluation_criteria": "Mention interference patterns produced by particles when not observed.",
+    "model_response": "Wave-particle duality is the concept that quantum entities exhibit both particle and wave properties. In the double slit experiment, firing electrons through two slits creates an interference pattern on the detector, proving they act as waves when unobserved."
+  },
+  {
+    "question_number": 4,
+    "category": "Science Logic",
+    "prompt": "Convert the high-level operation 'y = mx + c' into Three-Address Code (TAC).",
+    "evaluation_criteria": "Correct breakdown into: t1 = m * x; y = t1 + c.",
+    "model_response": "The Three-Address Code (TAC) representation is:\ny = m * x + c\nThis uses three addresses to complete the mathematical operation."
+  },
+  {
+    "question_number": 5,
+    "category": "Science Logic",
+    "prompt": "If a light source is moving away from an observer at high speed, what happens to the observed frequency and wavelength? Name the effect.",
+    "evaluation_criteria": "Identify 'Redshift'. Frequency decreases, wavelength increases.",
+    "model_response": "When a light source moves away at high speed, the observed frequency increases and the wavelength decreases. This is known as the Doppler Effect."
+  }
+]

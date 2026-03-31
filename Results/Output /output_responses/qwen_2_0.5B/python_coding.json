@@ -1,0 +1,37 @@
+[
+  {
+    "question_number": 1,
+    "category": "Python Coding",
+    "prompt": "Write a Python function to solve for the root of f(x) = cos(x) - x using the Secant Method. Stop when the error is less than 1e-6.",
+    "evaluation_criteria": "Correct implementation of the secant formula and a proper while/for loop for convergence.",
+    "model_response": "import math\n\ndef f(x):\n    return math.cos(x) - x\n\ndef secant_method(x0, x1):\n    while abs(x1 - x0) > 1e-6:\n        x_new = x1 - f(x1) * (x1 - x0) / (math.cos(x1) - x1)\n        x0 = x1\n        x1 = x_new\n    return x1"
+  },
+  {
+    "question_number": 2,
+    "category": "Python Coding",
+    "prompt": "Create a Python class representing a 'QuantumParticle' with attributes for position and momentum. Include a method to calculate the uncertainty product ΔxΔp.",
+    "evaluation_criteria": "Correct use of Python OOP (init method) and a basic calculation method.",
+    "model_response": "class QuantumParticle:\n    def __init__(self, position, momentum):\n        self.position = position\n        self.momentum = momentum\n\n    def calculate_uncertainty(self):\n        return self.position * self.momentum"
+  },
+  {
+    "question_number": 3,
+    "category": "Python Coding",
+    "prompt": "Write a script that reads a text file, counts the frequency of each word, and returns the top 5 most frequent words using a dictionary.",
+    "evaluation_criteria": "Efficient use of dictionaries or the collections.Counter library.",
+    "model_response": "with open('text.txt', 'r') as file:\n    words = file.read().split()\n\ncounts = {}\nfor word in words:\n    counts[word] = counts.get(word, 0) + 1\n\nprint(counts.sort()[:5])"
+  },
+  {
+    "question_number": 4,
+    "category": "Python Coding",
+    "prompt": "Write a Python function that takes a list of integers and returns a new list containing only the prime numbers using a list comprehension.",
+    "evaluation_criteria": "Correct prime checking logic inside a concise list comprehension.",
+    "model_response": "def get_primes(numbers):\n    return [x for x in numbers if x % 2 != 0 and x > 1]"
+  },
+  {
+    "question_number": 5,
+    "category": "Python Coding",
+    "prompt": "Implement a simple decorator called '@timer' that prints the execution time of any function it wraps.",
+    "evaluation_criteria": "Proper use of the functools.wraps and the time module to wrap a function.",
+    "model_response": "import time\n\ndef timer(func):\n    start = time.time()\n    func()\n    end = time.time()\n    print(f'Execution time: {end - start}')"
+  }
+]
