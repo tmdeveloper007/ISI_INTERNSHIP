@@ -63,5 +63,4 @@ This chart represents the weighted average of performance across all benchmarkin
 ## About the Author
 I am a second-year undergraduate physics student at Jadavpur University. My academic work focuses on computational physics and numerical methods.
 
-* **Current Focus**: Researching AST-to-LLVM IR translation and exploring local AI agents.
 * **GitHub**: [tmdeveloper007](https://github.com/tmdeveloper007)
